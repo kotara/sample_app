@@ -3,7 +3,8 @@ App::Application.routes.draw do
 
   match '/signup',  :to => 'users#new'
 
-  match '/signup',  :to => 'users#new'
+  match '/show',  :to => 'users#show'
+
 
   match '/contact', :to => 'pages#contact'
   match '/about',   :to => 'pages#about'
